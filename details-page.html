@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Mohamed Aridah" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Main Css File -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./E-commerce-bootstarp/css/details.css" />
+
+    <title>details page</title>
+  </head>
+  <body>
+    <header class="container">
+      <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid d-flex">
+          <a class="navbar-brand" href="#">
+            <img
+              class="img-fluid"
+              src="./E-commerce-bootstarp/images/Elegant e-commerce Online Shop Logo Template.png"
+              alt=""
+            />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="./E-commerce-bootstarp/index.html"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#shoes">Shoes</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#backpack">Backpack</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#subscribe">Subscribe</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <!-- slider start -->
+
+      <!-- slider end -->
+    </header>
+
+    <main class="main container">
+      <section class="product-wrapper">
+        <div class="container">
+          <div class="product-images-wrapper">
+            <div class="preview-image-wrapper">
+              <img
+                src="./E-commerce-bootstarp/images/categories/laptop.png"
+                class="preview-image"
+                alt="Product Image"
+              />
+              <!-- <div class="arrows hide-for-desktop">
+                <div class="next">
+                  <img src="./images/icon-next.svg" alt="Next Icon" />
+                </div>
+                <div class="prev">
+                  <img src="./images/icon-previous.svg" alt="Previous Icon" />
+                </div>
+              </div> -->
+              <!-- <div class="count">
+                <p>
+                  <span class="current"></span> of
+                  <span class="total"></span>
+                </p>
+              </div> -->
+            </div>
+
+            <div class="thumbs-wrapper hide-for-mobile">
+              <div class="thumb-image active">
+                <img
+                  src="./E-commerce-bootstarp/images/categories/laptop.png"
+                  alt="Product Thumb Image"
+                />
+              </div>
+              <div class="thumb-image">
+                <img
+                  src="./E-commerce-bootstarp/images/categories/laptop.png"
+                  alt="Product Thumb Image"
+                />
+              </div>
+              <div class="thumb-image">
+                <img
+                  src="./E-commerce-bootstarp/images/categories/laptop.png"
+                  alt="Product Thumb Image"
+                />
+              </div>
+              <div class="thumb-image">
+                <img
+                  src="./E-commerce-bootstarp/images/categories/laptop.png"
+                  alt="Product Thumb Image"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="product-details-wrapper">
+            <p class="product-brabd">Sneaker Company</p>
+            <h1 class="product-title">Fall Limited Edition Sneakers</h1>
+            <p class="product-description">
+              These low-profile sneakers are your perfect casual wear companion.
+              Featuring a durable rubber outer sole, they’ll withstand
+              everything the weather can offer.
+            </p>
+
+            <div class="product-price">
+              <div class="current-price-wrapper">
+                <h2 class="current-price">$125.00</h2>
+                <span class="discount">50%</span>
+              </div>
+              <div class="previous-price-wrapper">
+                <span class="previous-price">$250.00</span>
+              </div>
+            </div>
+
+            <form action="#" class="add-to-cart-form">
+              <div class="product-quantity">
+                <button type="button" class="button minus">
+                  <img
+                    src="/E-commerce-bootstarp/images/icon-minus.svg"
+                    alt="Minus Icon"
+                  />
+                </button>
+                <span class="product-quantity-num">0</span>
+                <button type="button" class="button plus">
+                  <img
+                    src="/E-commerce-bootstarp/images/icon-plus.svg"
+                    alt="Plus Icon"
+                  />
+                </button>
+              </div>
+
+              <button
+                type="submit"
+                aria-label="Add to cart"
+                class="button add-btn"
+              >
+                <img src="./images/icon-cart.svg" alt="" />
+                Add to cart
+              </button>
+
+              <p class="form-alert"></p>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- LightBox -->
+    <div class="lightbox-wrapper">
+      <div class="lightbox-content"></div>
+    </div>
+    <!-- Overlay -->
+    <div class="overlay"></div>
+    <script src="./js/main.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+      integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

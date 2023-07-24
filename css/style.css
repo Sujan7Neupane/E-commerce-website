@@ -1,0 +1,62 @@
+.panda-bg-info {
+  background: #b5f8eb;
+}
+.btn-color {
+  background-image: linear-gradient(#00d6fb 0%, #139dff 100%);
+}
+.price-color {
+  color: #ff5100;
+}
+.gutter-color {
+  background: orchid;
+}
+
+body {
+  margin: 0;
+}
+#containerSlider {
+  margin: auto;
+  width: 100%;
+  text-align: center;
+  padding-top: 100px;
+  box-sizing: border-box;
+}
+#containerSlider img {
+  width: 100%;
+  height: 140%;
+  text-align: center;
+  align-content: center;
+}
+
+.navbar-nav li a:hover {
+  color: #ff3f8b;
+}
+
+@media (max-width: 732px) {
+  #containerSlider img {
+    height: 12em;
+  }
+}
+@media (max-width: 500px) {
+  #containerSlider img {
+    height: 10em;
+  }
+}
+
+.navbar img {
+  height: 70px;
+  width: 170px;
+}
+
+ul> li:hover  {
+    color: #ff5100;
+}
+
+.footer {
+    background-color: #b5f8eb;
+}
+
+.carousal-img img {
+    height: 67vh;
+    object-fit: contain;
+}
